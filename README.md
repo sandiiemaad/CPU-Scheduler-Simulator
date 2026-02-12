@@ -1,4 +1,4 @@
-# 📌 CPU Scheduler Simulator
+#  CPU Scheduler Simulator
 
 A **Java-based CPU Scheduling Simulator** that implements and tests multiple **CPU scheduling algorithms** commonly studied in **Operating Systems** courses.
 
@@ -52,6 +52,8 @@ Features:
 ---
 
 ## 📂 Project Structure
+
+```text
 CPU-Scheduler-Simulator/
 │
 ├── src/
@@ -75,3 +77,4 @@ CPU-Scheduler-Simulator/
 │       └── AG_test6.json
 │
 └── README.md
+```

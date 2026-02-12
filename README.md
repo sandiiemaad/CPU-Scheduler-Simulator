@@ -6,7 +6,7 @@ The simulator reads **JSON test cases**, executes different scheduling algorithm
 
 ---
 
-## 🚀 Supported Scheduling Algorithms
+## Supported Scheduling Algorithms
 
 ### 1️⃣ Preemptive Shortest Job First (SJF)
 - Selects the process with the **shortest remaining burst time**
@@ -40,14 +40,14 @@ Features:
 
 ## 🧠 Key Features
 
-- ✔ Multiple scheduling algorithms
-- ✔ Preemptive execution
-- ✔ Context switch handling
-- ✔ Aging to prevent starvation
-- ✔ JSON-based test cases
-- ✔ Automatic validation of results
-- ✔ Average Waiting Time & Turnaround Time calculation
-- ✔ Clear execution order tracking
+-  Multiple scheduling algorithms
+-  Preemptive execution
+-  Context switch handling
+-  Aging to prevent starvation
+-  JSON-based test cases
+-  Automatic validation of results
+-  Average Waiting Time & Turnaround Time calculation
+-  Clear execution order tracking
 
 ---
 
@@ -55,23 +55,23 @@ Features:
 CPU-Scheduler-Simulator/
 │
 ├── src/
-│ ├── CPUSchedulers/
+│   └── CPUSchedulers/
 │
 ├── test_cases/
-│ ├── Other_Schedulers/
-│ │ ├── test_1.json
-│ │ ├── test_2.json
-│ │ ├── test_3.json
-│ │ ├── test_4.json
-│ │ ├── test_5.json
-│ │ └── test_6.json
-│ │
-│ └── AG/
-│ ├── AG_test1.json
-│ ├── AG_test2.json
-│ ├── AG_test3.json
-│ ├── AG_test4.json
-│ ├── AG_test5.json
-│ └── AG_test6.json
+│   ├── Other_Schedulers/
+│   │   ├── test_1.json
+│   │   ├── test_2.json
+│   │   ├── test_3.json
+│   │   ├── test_4.json
+│   │   ├── test_5.json
+│   │   └── test_6.json
+│   │
+│   └── AG/
+│       ├── AG_test1.json
+│       ├── AG_test2.json
+│       ├── AG_test3.json
+│       ├── AG_test4.json
+│       ├── AG_test5.json
+│       └── AG_test6.json
 │
 └── README.md
